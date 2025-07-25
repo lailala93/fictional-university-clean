@@ -1,0 +1,40 @@
+# Node modules
+node_modules/
+
+# Build / production files (if you have a build folder)
+dist/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Env files (for secrets)
+.env
+.env.local
+.env.*.local
+
+# WordPress specific
+wp-config.php
+wp-content/uploads/
+wp-content/cache/
+
+
+# IDE/editor settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*~
+
+# Composer vendor (if you use PHP dependencies)
+vendor/
+
+plugins/*/node_modules/
