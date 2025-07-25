@@ -1,5 +1,13 @@
 <?php
+// This adds a query var!
+function universityQueryVars($vars)
+{
+  $vars[] = 'skyColor';
+  $vars[] = 'grassColor';
+  return $vars;
+}
 
+add_filter('query_vars', 'universityQueryVars');
 require get_theme_file_path('/inc/like-route.php');
 require get_theme_file_path('/inc/search-route.php');
 
